@@ -1,5 +1,7 @@
 # Arduino Smart Face Shield (2022)
 
+![Smart Face Shield](asf-photo1.jpg)
+
 ## Introduction
 
 This project is my Senior High Practical Research 2 Scientific Investigatory Project (SIP), which we completed in January 2022. It was developed as a response to the COVID-19 pandemic, aimed at improving public health safety. Our Arduino-based smart face shield was designed to provide a hands-free solution for temperature scanning and monitoring.
@@ -37,7 +39,7 @@ You need to install the following libraries in your Arduino IDE:
 2. The infrared temperature sensor measures both object and ambient temperature.
 3. The current date and time are fetched from the RTC module.
 4. If the measured object temperature is greater than or equal to 37.5°C, the vibration motor is triggered.
-5. All the data (date, time, distance, temperature) is displayed on the OLED screen.
+5. All the data (date, time, distance, temperature) is displayed on the OLED screen which is reflected thtough a mirror into a transparent surface.
 6. The data is also printed to the Serial Monitor for debugging purposes.
 
 ## Circuit Diagram
@@ -80,6 +82,12 @@ You can find the source code in the `asf.ino` file. The main logic involves the 
 4. Open the **Serial Monitor** to view the real-time data output.
 5. Observe the **OLED display** for real-time distance, temperature, date, and time.
 6. If the temperature exceeds 37.5°C, the vibration motor will be activated.
+
+## Poster
+![Smart Face Shield](asf-poster.png)
+
+## Extra
+[Smart Face Shield Research Paper.pdf]
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project as long as proper credit is given to the author.
