@@ -83,8 +83,3 @@ You can find the source code in the `asf.ino` file. The main logic involves the 
 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project as long as proper credit is given to the author.
-
-## Author
-[Your Name] – [Your GitHub Profile URL]  
-Feel free to reach out for any issues or contributions.
-
