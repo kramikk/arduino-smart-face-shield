@@ -1,10 +1,12 @@
 # Arduino Smart Face Shield (2022)
 
-![Smart Face Shield](asf-photo1.jpg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kramikkk/arduino-smart-face-shield/main/assets/smf-gif1.gif" alt="Smart Face Shield"/>
+</p>
 
 ## Introduction
 
-This project is my Senior High Practical Research 2 Scientific Investigatory Project (SIP), which we completed in January 2022. It was developed as a response to the COVID-19 pandemic, aimed at improving public health safety. Our Arduino-based smart face shield was designed to provide a hands-free solution for temperature scanning and monitoring.
+This project is my Senior High Practical Research 2 Scientific Investigatory Project (SIP), in which it was completed on January 2022. It was developed as a response to the COVID-19 pandemic, aimed at improving public health safety. Our Arduino-based smart face shield was designed to provide a hands-free solution for temperature scanning and monitoring.
 
 The smart face shield detects the temperature of surrounding individuals without any physical contact, offering a fast and effective way to monitor for potential fever—a common symptom of COVID-19. This device not only helps in minimizing close contact but also ensures a quick and efficient method to assess temperatures in public spaces.
 
@@ -27,7 +29,12 @@ You need to install the following libraries in your Arduino IDE:
 - [Adafruit SSD1306](https://github.com/adafruit/Adafruit_SSD1306): For the OLED screen communication.
 - [RTClib](https://github.com/adafruit/RTClib): For the real-time clock module.
 
+
 ## Features
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kramikkk/arduino-smart-face-shield/main/assets/asf-gif2.gif" alt="Smart Face Shield" width="600"/>
+</p>
+
 - **Distance Measurement**: Measures the distance using the ultrasonic sensor.
 - **Temperature Measurement**: Measures the object's temperature using the MLX90614 sensor.
 - **OLED Display**: Displays the current date, time, temperature, and distance.
@@ -35,11 +42,15 @@ You need to install the following libraries in your Arduino IDE:
 - **Real-Time Clock (RTC)**: Shows the current date and time using the DS3231 module.
 
 ## How It Works
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kramikkk/arduino-smart-face-shield/main/assets/asf-gif3.gif" alt="Smart Face Shield" width="600"/>
+</p>
+
 1. The ultrasonic sensor detects the distance to an object in centimeters.
-2. The infrared temperature sensor measures both object and ambient temperature.
+2. The infrared temperature sensor measures an object temperature.
 3. The current date and time are fetched from the RTC module.
 4. If the measured object temperature is greater than or equal to 37.5°C, the vibration motor is triggered.
-5. All the data (date, time, distance, temperature) is displayed on the OLED screen which is reflected thtough a mirror into a transparent surface.
+5. All the data (date, time, distance, temperature) is displayed on the OLED screen which is reflected through a mirror into a transparent surface.
 6. The data is also printed to the Serial Monitor for debugging purposes.
 
 ## Circuit Diagram
@@ -82,12 +93,13 @@ You can find the source code in the `asf.ino` file. The main logic involves the 
 4. Open the **Serial Monitor** to view the real-time data output.
 5. Observe the **OLED display** for real-time distance, temperature, date, and time.
 6. If the temperature exceeds 37.5°C, the vibration motor will be activated.
+7. Once working, print all the parts from [assets folder](https://github.com/kramikkk/arduino-smart-face-shield/tree/main/case-3d-model) and place the components inside it.
+
 
 ## Poster
 ![Smart Face Shield](asf-poster.png)
 
 ## Extra
-[Smart Face Shield Research Paper.pdf]
-
+[Smart-Face-Shield-Research-Paper.pdf](https://github.com/kramikkk/arduino-smart-face-shield/tree/main/assets/Smart-Face-Shield-Research-Paper.pdf) 
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this project as long as proper credit is given to the author.
