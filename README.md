@@ -1,7 +1,7 @@
 # Arduino Smart Face Shield (2022)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kramikkk/arduino-smart-face-shield/main/assets/smf-gif1.gif" alt="Smart Face Shield"/>
+  <img src="https://raw.githubusercontent.com/kramikkk/arduino-smart-face-shield/main/assets/smf-gif1.gif" alt="Smart Face Shield" width="600"/>
 </p>
 
 ## Introduction
@@ -97,7 +97,7 @@ You can find the source code in the `asf.ino` file. The main logic involves the 
 
 
 ## Poster
-![Smart Face Shield](asf-poster.png)
+![Smart Face Shield](assets/asf-poster.png)
 
 ## Extra
 [Smart-Face-Shield-Research-Paper.pdf](https://github.com/kramikkk/arduino-smart-face-shield/tree/main/assets/Smart-Face-Shield-Research-Paper.pdf) 
