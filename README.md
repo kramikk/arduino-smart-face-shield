@@ -1,7 +1,7 @@
 # Arduino Smart Face Shield (2022)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/kramikkk/arduino-smart-face-shield/main/assets/smf-gif1.gif" alt="Smart Face Shield" width="600"/>
+  <img src="assets/sfs-cover-photo.jpeg" alt="Smart Face Shield" width="600"/>
 </p>
 
 ## Introduction
@@ -13,6 +13,11 @@ The smart face shield detects the temperature of surrounding individuals without
 This project utilizes an Arduino with an ultrasonic sensor and an infrared temperature sensor to measure both the distance and the temperature of a person. The values are displayed on an OLED screen which the user can view through a reflection, and a vibration motor is triggered if the temperature exceeds a certain threshold (37.5°C). The project also includes a real-time clock (RTC) module to display the current date and time on the OLED display.
 
 ## Components
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kramikkk/arduino-smart-face-shield/main/assets/smf-gif1.gif" alt="Smart Face Shield in action" width="600"/>
+</p>
+
 - **Arduino Nano** (for portability)
 - **Ultrasonic Sensor (HC-SR04)**: Measures distance in centimeters.
 - **Infrared Temperature Sensor (MLX90614)**: Measures object and ambient temperature.
